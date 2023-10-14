@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Connect</title>
+    <!-- Add your CSS and JavaScript links here -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img id="logo" src="images/Logo3.png" alt="school logo">
+        </div>
+        <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+        <!-- Welcome Page -->
+    <div class="welcome-content">
+        <h1>Alumni Connect</h1>
+        <p id="para1"><i><b>Your gateway to staying connected with your university's alumni community.</b></i></p>
+        <h2>Aims and Objectives</h2>
+        <p id="para2">Igniting Unity, Fueling Growth, and Reliving Campus Magic. We are your bridge to a vibrant community, lasting connections, <br> supporting lifelong learning and professional growth, and rekindling the enchantment of your campus memories. <br> With us, you forge meaningful connections, stay informed about exciting events, and experience technical <br> excellence in an ever-evolving digital landscape. Welcome to a world where past and future converge, <br> where alumni thrive and make memories anew.</p>
+        </div>
+    </header>
+    
+
+    <!-- Events Page -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+
+        <!-- Professional Development Events -->
+        <h3><i>Professional Development Events</i></h3>
+        <div class="pro-events">
+            <div class="event1">
+                <img src="images/pe1.jpg" alt="Event 1 Image">
+                <h4><I>CODING BOOTCAMP, 20th-4th Dec 2023</I></h4>
+                <p>Unleash Your Potential in the World of Technology. Join our intensive, <br> hands-on program designed to equip you with the in-demand coding <br>skills employers crave.</p>
+                <p>-----</p>
+                <p><b><i>Venue:</i> Online</b></p>
+                <button>RSVP</button>
+            </div>
+
+            <div class="event2">
+                <img src="images/ahaaa.png" alt="Event 1 Image">
+                <h4><b><i>LEADERSHIP OR MANAGEMENT? 1st NOV 2023</i></b></h4>
+                <p>Ever thought about the intricacies beween management and leadership?  Discover the distinctions that set these roles apart and the powerful similarities that bind them. </p>                
+                <p>-----</p>
+                <p><b><i>Venue:</i> Campus HQ</b></p>
+                <button>RSVP</button>
+            </div>
+
+            <div class="event3">
+                <img src="images/pe4.png" alt="Event 1 Image">
+                <h4><b><i>CAREER FAIR, 5th NOV 2023</i></b></h4>
+                <p>Your Pathway to Opportunities and Connections. Step into a world <br>of possibilities at our highly anticipated Career Fair.</p>
+                <p>-----</p>
+                <p><b><i>Venue:</i> Campus HQ</b></p>
+                <button>RSVP</button>
+            </div>
+        </div>
+
+        <!-- Campus Events -->
+        <h3><i>Campus Events</i></h3>
+        <div class="campus-events">
+            <div class="event4">
+                <img src="images/ce1.png" alt="Event 1 Image">
+                <h4>Event 1 Name</h4>
+                <p>Date: [Event Date]</p>
+                <p>Description: [Event Description]</p>
+                <p>Venue: [Event Venue]</p>
+                <button>RSVP</button>
+            </div>
+
+
+            <div class="event5">
+                <img src="images/ce2.jpg" alt="Event 1 Image">
+                <h4>Event 1 Name</h4>
+                <p>Date: [Event Date]</p>
+                <p>Description: [Event Description]</p>
+                <p>Venue: [Event Venue]</p>
+                <button>RSVP</button>
+            </div>
+
+
+            <div class="event6">
+                <img src="images/Sports Fair (1).jpeg" alt="Event 1 Image">
+                <h4>Event 1 Name</h4>
+                <p>Date: [Event Date]</p>
+                <p>Description: [Event Description]</p>
+                <p>Venue: [Event Venue]</p>
+                <button>RSVP</button>
+            </div>
+        </div>
+
+        <!-- Repeat the above event structure for other Campus Events -->
+
+    </section>
+
+    <!-- About Page -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This section can contain information about the administrators and their technical expertise.</p>
+        <!-- Optional: Administrator profiles with images and bios -->
+    </section>
+
+    <!-- Contact Us Page -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to reserve a slot for an event? Fill out the form below:</p>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="Event Reservation">Event Reservation</option>
+                <option value="Technical Support">Technical Support</option>
+                <option value="General Inquiry">General Inquiry</option>
+            </select><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Alumni Connect</p>
+    </footer>
+
+    <!-- Add your JavaScript at the end if needed -->
+
+</body>
+</html>
